@@ -26,6 +26,9 @@ O projeto se trata de desenvolver uma página usando HTML, CSS e Javascript, par
 #### A quarta e última seção se trata de um footer simples com links importantes.
 ![Página de clientes](assets/footer-section.JPG)
 
+## Veja o projeto funcionando na prática:
+[FlowGiphy - Projeto Netlify](https://vanderson-alves-hotel-flow.netlify.app/)
+
 
 ## Tecnologias utilizadas:
 * HTML
