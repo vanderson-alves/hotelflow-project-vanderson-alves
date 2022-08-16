@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.flow__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.flow__header-links_logo img {
+    width: 180px;
+}
+
+.flow__header-links_container {
+    display: flex;
+}
+
+.flow__header-links_container li {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.flow__header-links_container a {
+    text-decoration: none;
+    color: #3AB54A;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.flow__header-links_container a:hover {
+    color: #000;
+}
+
+/*BANNER SECTION*/
+.flow__banner { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EFD345;
+    color: rgb(41, 39, 39);
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+
+.flow__banner-content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.flow__banner-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.flow__banner-image img {
+    width: 400px;
+}
+
+.flow__banner-content_input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.flow__banner-content input { 
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 1rem;
+    outline: none;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.flow__banner-content button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #3AB54A;
+    border: 2px solid #3AB54A;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* LIST BOX SECTIONS */
+.flow__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flow__list-container_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flow__list-container_box div {
+    background-color: white;
+    flex: 1 0 calc(33.33% - 10px);
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flow__list-content {
+    text-align: center;
+}
+
+.flow__list-content h1 {
+    font-size: 2.5rem;
+}
+
+.flow__list-content p {
+    font-size: 1.2rem;
+}
+
+.flow__list-boxes li {
+    list-style: none;
+    margin: 20px;
+}
+
+.flow__list button {
+    width: 40%;
+
+    flex: 0.6;
+    min-height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    background: #3AB54A;
+    border: 2px solid #3AB54A;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+
+.flow__list-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+/* FOOTER SECTION */
+
+.flow__footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3AB54A;
+    color: #FFF;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.flow__footer a {
+    color: #FFF;
+}
+
+.flow__footer a:hover {
+    color: #000;
+}
+
+.flow__content-socialmedia p {
+    margin-top: 20px;
+}
+
+.flow__content-location p {
+    margin-top: 20px;
+}
+
+.flow__content-developer p {
+    margin-top: 20px;
+}
+
+.flow__footer h1 {
+    font-size: 1.7rem;
+}
+
+.flow__footer p {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 850px) {
+    /* HEADER */
+    .flow__header {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .flow__header-links_container li {
+        margin-left: 10px;
+        list-style: none;
+    }
+  
+    /* BANNER */
+    .flow__banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0 0;
+    }
+
+    .flow__banner img {
+        width: 350px;
+    }
+    
+    .flow__banner h1 {
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+    }
+
+    /* LIST */
+
+    .flow__list h1 {
+        font-size: 2rem;
+    }
+
+    /* FOOTER */
+  }
+
+@media screen and (max-width: 650px) {
+    /* HEADER */
+  
+    /* BANNER */    
+
+    .flow__banner-content {
+        padding: 15px;
+    }
+
+    .flow__banner-content input { 
+        font-size: 15px;
+    }
+    
+    .flow__banner-content button {
+        font-size: 15px;
+    }
+
+    /* LIST */
+
+    /* FOOTER */
+
+    .flow__footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .flow__footer h1 {
+        margin-top: 15px;
+    }
+
+    .flow__footer p {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   /* HEADER */
+   .flow__header {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .flow__header-links_logo img {
+        width: 120px;
+    }
+
+    .flow__header-links_container a {
+        font-size: 0.8rem;
+    }
+
+    /* BANNER */
+    .flow__banner img {
+        width: 200px;
+    }
+
+    .flow__banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .flow__banner p {
+        font-size: 0.8rem;
+    }
+
+    .flow__banner-content input { 
+        font-size: 10px;
+    }
+    
+    .flow__banner-content button {
+        font-size: 10px;
+    }
+
+    /* LIST */
+
+    .flow__list h1 {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .flow__list p {
+        font-size: 0.8rem;
+    }
+
+    .flow__list-container_box {
+        margin: 0px 0;
+    }
+
+    /* FOOTER */
+    .flow__footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .flow__footer h1 {
+        font-size: 1.5rem;
+    }
+
+    .flow__footer p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
