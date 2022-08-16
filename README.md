@@ -1,4 +1,4 @@
-# Projeto Sistema de Chamados
+# Projeto FlowGiphy
 
 ## Descrição do projeto:
 O projeto se trata de desenvolver uma página usando HTML, CSS e Javascript, para cadastro de gifs onde o usuário pode cadastrar e organizar a sua coleção.
